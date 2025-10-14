@@ -12,4 +12,5 @@ int main()
   a = a ^ b;
 
   printf("\nNumber After swap \n a = %d \t b = %d ", a, b);
+  return 0;
 }
