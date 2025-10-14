@@ -11,4 +11,6 @@ int main()
 
   double distance = (double)sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
   printf("Distance between two Points : %.2lf", distance);
+
+  return 0;
 }
