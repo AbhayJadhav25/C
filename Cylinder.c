@@ -10,5 +10,6 @@ int main()
   double volume = 3.14 * radius * radius * height;
 
   printf("Surface Area = %.2lf \n Volume = %.2lf\n", surfaceArea, volume);
+
   return 0;
 }
