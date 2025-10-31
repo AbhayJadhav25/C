@@ -9,8 +9,8 @@ int main()
   while (digit > 0)
   {
     int rem = digit % 10;
-    sum += rem;
-    digit /= 10;
+    sum = sum + rem;
+    digit = digit / 10;
     count++;
   }
   printf("Total number of Digits : %d \n Sum of total digits : %d\n", count, sum);
