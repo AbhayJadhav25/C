@@ -18,7 +18,7 @@ int main()
   printf("Enter %d elements in Second array : \n ", n);
   for (int i = 0; i < n; i++)
   {
-    scanf("%d", (b + i));
+    scanf("%d", (b + i)); // &b[i] = (b+i) && b[i] = *(b+i)
   }
 
   for (int i = 0; i < n; i++)
