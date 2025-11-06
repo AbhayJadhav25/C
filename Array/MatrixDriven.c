@@ -47,7 +47,7 @@ int main()
       int ans = traceMatrix(arr, rows);
       printf("Trace Matrix : %d\n", ans);
       break;
-    }
+    } 
     case 3:
       if (isUpperTriangular(arr, rows))
       {
